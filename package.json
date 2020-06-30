@@ -1,0 +1,17 @@
+{
+  "name": "fire-sale",
+  "version": "1.0.0",
+  "description": "a electron markdown reader",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Castelo",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.5"
+  },
+  "dependencies": {
+    "marked": "^1.1.0"
+  }
+}
