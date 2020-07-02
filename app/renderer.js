@@ -9,3 +9,7 @@ const revertButton = document.querySelector('#revert');
 const saveHtmlButton = document.querySelector('#save-html');
 const showFileButton = document.querySelector('#show-file');
 const openInDefaultButton = document.querySelector('#open-in-default');
+
+const renderMarkdownToHtml = (markdown) => {
+    htmlView.innerHTML = marked(markdown, { sanitize: true });
+}
