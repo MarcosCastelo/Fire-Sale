@@ -10,6 +10,7 @@ app.on('ready', () => {
         show: false,
     });
 
+    mainWindow.webContents.openDevTools();
     mainWindow.webContents.loadFile('index.html');
     Menu.setApplicationMenu(null);
 

@@ -13,3 +13,8 @@ const openInDefaultButton = document.querySelector('#open-in-default');
 const renderMarkdownToHtml = (markdown) => {
     htmlView.innerHTML = marked(markdown, { sanitize: true });
 }
+
+markdownView.addEventListener('keyup', (event) => {
+    const currentContent = event.target.value;
+    renderMarkdownToHtml(currentContent);
+});
