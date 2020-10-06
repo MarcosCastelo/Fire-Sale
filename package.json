@@ -10,7 +10,7 @@
   "author": "Marcos Castelo",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^9.0.5"
+    "electron": "^9.3.1"
   },
   "dependencies": {
     "marked": "^1.1.0"
